@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "557338960400",
+    "firebase_url": "https://foodwalkers-dbb9b.firebaseio.com",
+    "project_id": "foodwalkers-dbb9b",
+    "storage_bucket": "foodwalkers-dbb9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557338960400:android:276520a178e3f84e5be095",
+        "android_client_info": {
+          "package_name": "com.foodwalkers.mobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557338960400-975kiohlgkh00qo34t1bio4vbtknl13b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa-5UTg93U1MF6F70OP5Kg9FJNL9MiSyc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557338960400-975kiohlgkh00qo34t1bio4vbtknl13b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
