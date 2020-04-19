@@ -76,7 +76,7 @@
 	<plugin name="com.cmackay.plugins.googleanalytics" source="npm" spec="1.0.4" >	
 	   <variable name="ANALYTICS_VERSION" value="11.0.1" /> 
 	</plugin>
-	
+	<plugin name="com.aserputko.speech.speechrecognition2" spec="0.1.0" source="pgb" />
 	<gap:plugin name="com-sarriaroman-photoviewer" source="npm"  /> 
 	
 	<gap:plugin name="cordova-plugin-x-socialsharing" source="npm" spec="5.4.6" > 
