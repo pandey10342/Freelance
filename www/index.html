@@ -48,10 +48,13 @@
   <script src="js/app.js?version=1.0.0"></script>
   <script src="js/map-wrapper.js?version=1.0.0"></script>  
   <script>
-  window.plugins.speechRecognition.isRecognitionAvailable(
-  Function successCallback, Function errorCallback)
-  
-  console.log("asASs" +successCallback);
+  window.plugins.speechRecognition.isRecognitionAvailable(function(available){
+    if(available){
+       alert(available);
+    }
+}, function(err){
+    console.error(err);
+});
   </script>
 </head>
 <body>
