@@ -48,6 +48,7 @@
   <script src="js/app.js?version=1.0.0"></script>
   <script src="js/map-wrapper.js?version=1.0.0"></script>  
   <script>
+  var recognition;
   function getVoice() {
     recognition = new SpeechRecognition();
     recognition.onresult = function(event) {
