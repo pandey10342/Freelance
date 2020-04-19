@@ -50,8 +50,11 @@
   <script>
   var recognition;
   function getVoice() {
+  console.log("inside func :" )
     recognition = new SpeechRecognition();
+	console.log("inside recog :" +recognition);
     recognition.onresult = function(event) {
+	console.log("inside onresult :" +event);
         if (event.results.length > 0) {
             q.value = event.results[0][0].transcript;
             q.form.submit();
@@ -549,7 +552,7 @@
       <ons-icon icon="md-smartphone-android" size="60px" class="button--to_text_orange" ></ons-icon>
 	  <h3 class="trn">Enter your mobile no.</h3>
 	  <p class="trn small">We use it to make sure our deliveries reach you</p>
-	   <input type="text" id="q" name="q" size=60>
+	   <input type="search" id="q" name="q" size=60>
     <input type="button" value="Click to Speak" onclick="getVoice()">
 	<ons-list id="enter_phone_list">
     <!--
