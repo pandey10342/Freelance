@@ -1,8 +1,8 @@
 {
-  "phonegap-plugin-speech-recognition": {
+  "cordova-plugin-speechrecognition": {
     "source": {
       "type": "registry",
-      "id": "https://github.com/macdonst/SpeechRecognitionPlugin"
+      "id": "cordova-plugin-speechrecognition"
     },
     "is_top_level": true,
     "variables": {}
