@@ -1,0 +1,10 @@
+{
+  "phonegap-plugin-speech-recognition": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/macdonst/SpeechRecognitionPlugin"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}
